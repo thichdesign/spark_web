@@ -1,0 +1,96 @@
+.inline{display: inline-block !important;}
+.navbar-nav{
+  float: right;
+  margin-top: 20px;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+  background-color: transparent;
+  color: #9a9cab;
+}
+.nav>li>a{
+  color: #9a9cab;
+}
+
+.nav>li.active{
+  position: relative;
+  
+}
+.nav>li.active::after{
+    position: absolute;
+    height: 1px;
+    width: 30px;
+    background: rgb(51, 122, 183);
+    margin-left: 5px;
+    margin-top: -5px;
+}
+#homepage{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+  min-height: 100% !important;
+}
+
+.home-bg {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  overflow: hidden;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a0a17+0,110f23+100 */
+background: #0a0a17; /* Old browsers */
+background: -moz-linear-gradient(top,  #0d121b 0%, #161646 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0d121b 0%,#161646 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0d121b 0%,#161646 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d121b', endColorstr='#161646',GradientType=0 ); /* IE6-9 */
+
+
+  background-size: 150vmax 150vmax;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.home-globe{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	top: 150px;
+	opacity: 0.9;
+}
+.home-content{
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  min-height: 100% !important;
+  text-align: center;
+  color: #fff;
+  left: 0;
+  top: 10%;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo-intro{
+  margin-top: 80px; 
+  opacity: 0.8;
+}
+.logo-intro img{
+  text-align: center;
+  margin: 0 auto;
+}
+.top-content h5 {
+    opacity: 0.6;
+    line-height: 30px;
+    font-size: 18px;
+    position: relative;
+    margin-top: 20px;
+}
+.navbar-brand:hover .hvr-rotate {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
