@@ -1,0 +1,216 @@
+@media screen and (max-width: 1200px) and (min-width:991px ){
+	.mem10 {
+	    width: 220px;
+	    left: 303px;
+	    top: 542px;
+	}
+	.mem12 {
+	    width: 110px;
+	    left: 520px;
+	    top: 570px;
+	}
+	.mem15 {
+	    width: 100px;
+	    left: 810px;
+	    top: 360px;
+	}
+	.member-profile {
+	    min-height: 800px;
+	    margin-bottom: 60px;
+	}
+
+}
+
+@media screen and (max-width: 990px){
+	.member-key div.col-md-4{
+		float: none;
+		margin: 0 auto;
+	}
+	.member-key .col-xs-10 img{
+		width: 60%;
+	}
+	.mem{
+		float: left;
+	    position: relative;
+	    left: auto !important;
+	    width: 29%;
+	    height: 190px;
+	    top: auto  !important;
+	    margin-bottom: 40px;
+	    margin-right: 20px;
+	    padding: 10px;
+
+	}
+	.mem5{
+		left: -30px;
+	}
+	.mem11{
+		left: -30px;
+	}
+	.mem17{
+		left: 30px;
+	}
+	#navbar{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 510px) {
+	.mem{
+		width: 50%;
+		height: 160px;
+		float: left;
+		margin: 0 auto;
+        animation-delay: 0s !important;
+        padding: 20px;
+        top: auto;
+        left: auto;
+	}
+	.jobs-page h1, .member h1{
+		font-size: 32px;
+	}
+	.member-profile {
+	    margin-bottom: 60px;
+	}
+	.member-key div.col-md-4{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.member-key div.col-md-4 p{
+
+		text-align: left;
+	}
+	.profile-modal-md .modal-md{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		background: #fff;
+		background-image: none; 
+		margin: 0;
+	}
+	.profile-cnt {
+	    width: 100%;
+	    height: 100%;
+	    margin: 0 auto;
+	    margin-top: 10px;
+	    text-align: center;
+	    z-index: 999;
+	    position: relative;
+	    padding: 40px;
+	}
+	.profile-cnt p{
+		text-align: left;
+	}
+	.member-bg{
+		display: none;
+	}
+	.profile-modal-md .modal-md .modal-content .close-map {
+	    background: #ffffff;
+	    text-align: center;
+	    font-size: 24px;
+	    cursor: pointer;
+	    color: #000;
+	    right: 0;
+	    bottom: auto; 
+	    top: 0;
+	    z-index: 9999;
+	}
+	.navbar-brand{
+		padding: 6px 10px !important;
+	}
+	.navbar-brand svg{
+		height: 42px !important;
+	}
+	.member {
+	    margin-top: 60px;
+	}
+	footer ul{
+		padding-left: 0;
+		float: left;
+	}
+	
+	.navbar-nav{
+		float: left;
+	    width: 100%;
+        padding-left: 30px;
+	}
+	.nav-modal-md>li>a{
+	    padding-top: 30px;
+   		padding-bottom: 10px;
+	    line-height: 20px;
+	    font-size: 30px;
+	    font-weight: 500 !important;
+	}
+	.nav>li.active::after{display: none;}
+	.navbar-toggle{
+		z-index: 9999;
+	}
+	.menu-sidebar{
+		position: fixed;
+		width: 100vh;
+		height: 100vh;
+		z-index: 99;
+		 background: #0b0e17;
+		 left: 0;
+		 top: 0;
+	}
+	#navbar{
+		display: none;
+	}
+	.nav-list{
+	    height: 100%;
+	    display: flex;
+	    align-items: center;
+	}
+	.nav-list li{
+		list-style: none;
+	}
+	.nav-list li a{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.nav-sidebar{
+		background: red;
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		z-index: 9999;
+	}
+    .nav-sidebar .modal-dialog {
+	    position: fixed;
+	    margin: 10px;
+	    left: 0;
+	    margin: 0;
+	    width: 100%;
+	    height: 100vh;
+	    background: #000;
+	}
+	.nav-sidebar .modal-content{
+	    height: 100%;
+        box-shadow: none;
+        border: 0;
+        border-radius: 0;
+        background: #000;
+	}
+	.nav-sidebar .modal-content::after{
+        opacity: 0.1;
+	    background-image: url(../images/logo-mark.svg);
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-color: transparent;
+	    width: 100%;
+	    height: 100%;
+	    position: fixed;
+	    z-index: 999;
+	    top: 0;
+	    left: 50%;
+	}
+	.nav-sidebar .close-map{
+		right: 10px;
+    	top: 0px;
+    	background-color: transparent;
+    	color: #fff;
+	}
+	
+}
