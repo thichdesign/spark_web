@@ -2957,6 +2957,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f1726', e
 .navbar-toggle .icon-bar{
       background: #fff;
 }
+.navbar-toggle{
+  font-size: 26px;
+  padding: 0;
+  color: #bdbdbd;
+}
+
 
 
 

@@ -163,19 +163,40 @@
 	    display: flex;
 	    align-items: center;
 	}
-	.nav-list li{
-		list-style: none;
+	.nav-list ul li a {
+	    font-size: 32px;
+	    line-height: 64px;
+	    font-weight: 500;
 	}
-	.nav-list li a{
-		font-size: 24px;
-		line-height: 30px;
+	.nav-list ul li {
+	    list-style: none;
 	}
+
 	.nav-sidebar{
-		background: red;
 		position: fixed;
 		width: 100%;
 		height: 100vh;
 		z-index: 9999;
+		-webkit-transform: translate3d(0%, 0, 0);
+		-ms-transform: translate3d(0%, 0, 0);
+		 -o-transform: translate3d(0%, 0, 0);
+		    transform: translate3d(0%, 0, 0);
+	}
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	/*Right*/
+	.nav-sidebar .modal-dialog {
+		right: -320px;
+		-webkit-transition: opacity 1s linear, right 1s ease-out;
+		   -moz-transition: opacity 1s linear, right 1s ease-out;
+		     -o-transition: opacity 1s linear, right 1s ease-out;
+		        transition: opacity 1s linear, right 1s ease-out;
+	}
+	
+	.nav-sidebar.in .modal-dialog {
+		right: 0;
 	}
     .nav-sidebar .modal-dialog {
 	    position: fixed;
@@ -194,7 +215,7 @@
         background: #000;
 	}
 	.nav-sidebar .modal-content::after{
-        opacity: 0.1;
+        opacity: 0.08;
 	    background-image: url(../images/logo-mark.svg);
 	    background-repeat: no-repeat;
 	    background-position: center center;
@@ -211,6 +232,7 @@
     	top: 0px;
     	background-color: transparent;
     	color: #fff;
+    	z-index: 9999;
 	}
 	
 }
