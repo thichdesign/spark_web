@@ -398,8 +398,7 @@
 		margin-top: 20px;
 	}
 	.p0s{
-		padding-left: 0;
-		orphans: 0;
+		padding: 0;
 	}
 	.cnt-article p{
 		-webkit-column-count: 1;
@@ -442,10 +441,10 @@
         padding-top: 50px;
 	}
 	.maps-left h1{
-	    font-size: 18px;	
+	    font-size: 20px;	
 	}
 	.maps-left h1:after{
-		top: 10px;
+		top: 12px;
 	}
 	.close-map{
 	    right: 0px;

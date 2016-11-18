@@ -2975,7 +2975,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f1726', e
   color: #fff;
   border-radius: 60%;
   text-align: center;
-  z-index: 20;
+  z-index: 999;
 }
 .left-cnt{
   margin-left: 0;
