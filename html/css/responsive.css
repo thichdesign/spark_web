@@ -57,6 +57,13 @@
 		overflow: hidden;
 	}
 }
+@media  screen and (min-width : 768px) and (max-width : 1024px) and (-webkit-min-device-pixel-ratio: 1)  { 
+	.wwd-photo, .laptop, .heart, .chat-mes, .pen, .p-2, .ipad, .p-3, .ruler, .p-1{
+		width: 100%;
+
+	}
+}
+
 @media screen and (max-width: 768px) {
 
 	.nav-modal-md>li>a{
