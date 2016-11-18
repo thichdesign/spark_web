@@ -2980,6 +2980,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f1726', e
 .left-cnt{
   margin-left: 0;
 }
-
+@-moz-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
 
 

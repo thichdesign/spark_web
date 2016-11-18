@@ -350,6 +350,9 @@
 	    z-index: 999;
 	    top: 0;
 	    left: 50%;
+	    -webkit-animation:spin 50s ease-in-out infinite; // No more infinite
+	    -moz-animation:spin 50s ease-in-out infinite;
+	    animation:spin 50s ease-in-out infinite;
 	}
 	.nav-sidebar .close-map{
 		right: 10px;
