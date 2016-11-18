@@ -58,11 +58,7 @@
 	}
 }
 @media screen and (max-width: 768px) {
-	.navbar-nav{
-		float: left;
-	    width: 100%;
-        padding-left: 30px;
-	}
+
 	.nav-modal-md>li>a{
 	    padding-top: 30px;
    		padding-bottom: 10px;
