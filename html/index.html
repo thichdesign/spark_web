@@ -433,7 +433,7 @@
         <div class="home-content">
           <div class="logo-intro clearfix wow animated zoomOut" data-wow-duration="1.5s" data-wow-delay="2.5s">
             <div class="container">
-              <div class="col-md-12 text-center">
+              <div class="col-md-12 col-md-offset-0 col-xs-8 col-xs-offset-2 text-center">
 
                    <img class="wow animated rotateIn" data-wow-duration="0.8s" data-wow-delay="0.1s" width="120" src="images/logo-mark.svg" alt=""><br/><br/>
                    <img class="wow animated flipInX" data-wow-delay="1s"  width="180" src="images/logo-letter.svg" alt="">
@@ -445,7 +445,7 @@
           <div class="top-content clearfix wow animated zoomIn"  data-wow-duration="1.2s" data-wow-delay="3.5s">
             <div class="container">
               <h1 class="wow animated pulse text-center" data-wow-delay="3.5s">OUR MISSION</h1>
-              <div class="col-md-5 col-md-offset-4 wow animated fadeInUp" data-wow-delay="4s">
+              <div class="col-md-5 col-md-offset-4 col-xs-12 wow animated fadeInUp" data-wow-delay="4s">
                 <h5 class="lead text-left clearfix">
                   Watch the changing world<br/>
                   Define the issues<br/>
@@ -466,7 +466,7 @@
 
     <section class="cnt-homepage wwd clearfix">
       <div class="container">
-        <div class="left-cnt col-md-5 col-md-offset-1 wow animated fadeIn col-sm-5">
+        <div class="left-cnt col-md-5 col-md-offset-1 wow animated fadeIn col-sm-5  col-xs-12">
           <h1 class="title- clearfix">
             What are we doing?
           </h1>
@@ -478,9 +478,11 @@
           </ul>
 
         </div>
-        <div class="right-cnt col-md-6 col-sm-7">
-
-          <div class="wwd-photo">
+        <div class="right-cnt col-md-6 col-sm-7 col-xs-12">
+          <div class="ww-photo-xs col-xs-12">
+            <img class="img-responsive hidden-sm hidden-md hidden-lg" src="images/sparkxlab-whatwedo.png" alt="">
+          </div>
+          <div class="wwd-photo hidden-xs">
             <div class="laptop wow animated fadeInRight"></div>
             <div class="heart wow animated fadeInUp" data-wow-delay="0.5s"></div>
             <div class="chat-mes wow animated fadeInUp" data-wow-delay="0.9s"></div>
@@ -503,16 +505,16 @@
         <h1 class="title- title-center clearfix mb30">
             Products
         </h1>
-        <div class="col-md-1">
+        <div class="col-md-1 hidden-xs">
           <div class="wow animated fadeInDown">
              <a  class="clearfix link-rotate" href="#" target="_blank">www.jobtown.co</a>
           </div>
          
         </div>
-        <div class="left-cnt col-md-6">
+        <div class="left-cnt col-md-6 col-xs-10 col-xs-offset-1">
 
-          
-          <div class="img-prd">
+          <img class="img-responsive hidden-sm hidden-md hidden-lg" src="images/sparkxlab-jobtown.png" alt="">
+          <div class="img-prd hidden-xs">
 
             <div class="jt-circle-lg wow animated zoomIn" ></div>
             <div class="jt-mobile  wow animated fadeInLeft" data-wow-delay="1s"></div>
@@ -524,7 +526,7 @@
           
 
         </div>
-        <div class="right-cnt col-md-5 animated fadeIn">
+        <div class="right-cnt col-md-5 animated fadeIn col-xs-12">
           <a href="#" target="_blank">
             <svg class="logo-jt hvr-bob" width="150" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                viewBox="-28 0.4 101.4 29.6" style="enable-background:new -28 0.4 101.4 29.6;" xml:space="preserve">
@@ -563,7 +565,7 @@
           <p class="mt20">JOB TOWN is a recruiting support service organized by SPARK X LAB PTE.LTD. We provide new services to assist recruiter on searching, management and catching up with the candidate on one platform.
 </p>
             <div class="prd-jobtown">
-              <p><span class="lnr lnr-laptop-phone"></span></span> Focus on only IT jobs</p>
+              <p><span class="lnr lnr-laptop-phone"></span> Focus on only IT jobs</p>
               <p><span class="lnr lnr-upload"></span> Easy to upload CV</p>
               <p><span class="lnr lnr-bubble"></span> Can communicate by chat with company</p>
 
@@ -636,13 +638,14 @@
       
     </section>
 
+    <a class="back-top fadeIn" href="#"><span class="lnr lnr-chevron-up"></span></a>
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-xs-12">
             <p>Copyright © 2016. SPARK X LAB. PTE. LTD. All Rights Reserved.</p>
           </div>  
-          <div class="col-md-7">
+          <div class="col-md-7 hidden-xs hidden-sm">
             <ul>
               <li><a href="">Home</a></li>
               <li><a href="">About us</a></li>
@@ -654,6 +657,25 @@
       </div>
 
     </footer>
+
+    <!--sidebar nav-->
+
+   <div class="modal right  fade nav-sidebar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content clearfix">
+          <a data-dismiss="modal" class="close-map" href="#"><span class="lnr lnr-cross"></span></a>
+          
+          <div class="nav-list">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="recruite.html">Jobs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

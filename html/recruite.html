@@ -117,8 +117,8 @@
           </div>
         </nav>
 
-        <div class="job-bg animated fadeIn">
-          <iframe src="bg-jobs/bg-jobs.html" frameborder="0"></iframe>
+        <div class="job-bg animated fadeIn hidden-xs">
+          <iframe class="hidden-xs" src="bg-jobs/bg-jobs.html" frameborder="0"></iframe>
         </div>
         <div class="job-bg-overlay"></div>
 
@@ -142,13 +142,13 @@
               </div>
               <div class="list-job clearfix wow fadeInUp"  data-wow-delay="0.3s">
                 
-                  <div class="clearfix">
+                  <div class="clearfix row">
                     <div class="col-md-6 col-sm-12 hot-job">
                       <div class="img-job clearfix">
                       <a href="job-detail.html" style="background-image:url('https://d86j8s7x74osh.cloudfront.net/resource/images/400x267/aHR0cHM6Ly9zMy1hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tL2pvYnRvd24vcHJvZHVjdGlvbi9jb21wYW55LzM3Ni9waG90by81N2M0ZmJhNTkzMzhiNTBkYmQ4MmZhN2UuanBn.jpg')"></a>
                       </div>
                       <div class="job-title">
-                        <h1><a href="job-detail.html.html">Talent Back-end Ruby, 
+                        <h1><a href="job-detail.html">Talent Back-end Ruby, 
   Python, PHP (5.000$)</a></h1>
                         <h5 class="clearfix">Singapore <a class="pull-right" href="job-detail.html"><span class="lnr lnr-arrow-right"></span></a></h5>
                       </div>
@@ -171,7 +171,7 @@
                     </div>
                   </div>
 
-                  <div class="clearfix">
+                  <div class="clearfix row">
                     <div class="col-md-3 col-sm-6 regular-job">
                       <div class="img-job clearfix"><a href="job-detail.html" style="background-image:url('https://16rg79206p914dhzdf2tvfcm-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/oneday-forward-co-working-space-bangkok.jpg')"></a></div>
                       <div class="job-title">
@@ -212,53 +212,55 @@
     </section>
     <section class="culture-spxl clearfix">
         <div class="container">
-          <div class="col-md-6 culture-cnt">
-            <h2 class="animated fadeInUp">Our culture</h2>
-            <div class="row mt30  animated fadeInLeft">
-              <div class="col-md-1"><span class="lnr lnr-graduation-hat"></span></div>
-              <div class="col-md-10 pl30">
-                <h5>Trainning</h5>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
+          <div class="row">
+            <div class="col-md-6 culture-cnt">
+              <h2 class="animated fadeInUp">Our culture</h2>
+              <div class="row mt30  animated fadeInLeft">
+                <div class="col-md-1 col-xs-1"><span class="lnr lnr-graduation-hat"></span></div>
+                <div class="col-md-10 col-xs-10 pl30">
+                  <h5>Trainning</h5>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
+                </div>
+              </div>
+
+              <div class="row mt30  animated fadeInLeft">
+                <div class="col-md-1 col-xs-1"><span class="lnr lnr-heart-pulse"></span></div>
+                <div class="col-md-10 col-xs-10 pl30">
+                  <h5>Benefit</h5>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
+                </div>
               </div>
             </div>
-
-            <div class="row mt30  animated fadeInLeft">
-              <div class="col-md-1"><span class="lnr lnr-heart-pulse"></span></div>
-              <div class="col-md-10 pl30">
-                <h5>Benefit</h5>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            
-            <div class="galery animated fadeInRight wow" data-wow-delay="0.1s">
-
-              <div id="carousel-generic" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-generic" data-slide-to="1"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img src="https://d86j8s7x74osh.cloudfront.net/resource/images/400x267/aHR0cHM6Ly9zMy1hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tL2pvYnRvd24vcHJvZHVjdGlvbi9jb21wYW55LzM3Ni9waG90by81N2M0ZmJhNTkzMzhiNTBkYmQ4MmZhN2UuanBn.jpg" alt="...">
-                
-                    </div>
-                    <div class="item">
-                      <img src="http://smartbusinesstrends.com/wp-content/uploads/2013/10/Bright-and-spacious-working-environment.jpg" alt="...">
+            <div class="col-md-6">
               
+              <div class="galery animated fadeInRight wow" data-wow-delay="0.1s">
+
+                <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-generic" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img src="https://d86j8s7x74osh.cloudfront.net/resource/images/400x267/aHR0cHM6Ly9zMy1hcC1zb3V0aGVhc3QtMS5hbWF6b25hd3MuY29tL2pvYnRvd24vcHJvZHVjdGlvbi9jb21wYW55LzM3Ni9waG90by81N2M0ZmJhNTkzMzhiNTBkYmQ4MmZhN2UuanBn.jpg" alt="...">
+                  
+                      </div>
+                      <div class="item">
+                        <img src="http://smartbusinesstrends.com/wp-content/uploads/2013/10/Bright-and-spacious-working-environment.jpg" alt="...">
+                
+                      </div>
                     </div>
+
+                
                   </div>
 
-              
-                </div>
 
 
 
-
+              </div>
             </div>
           </div>
         </div>
@@ -267,13 +269,14 @@
     </section>
 
     
+    <a class="back-top fadeIn" href="#"><span class="lnr lnr-chevron-up"></span></a>
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-xs-12">
             <p>Copyright © 2016. SPARK X LAB. PTE. LTD. All Rights Reserved.</p>
           </div>  
-          <div class="col-md-7">
+          <div class="col-md-7 hidden-xs hidden-sm">
             <ul>
               <li><a href="">Home</a></li>
               <li><a href="">About us</a></li>
@@ -285,6 +288,25 @@
       </div>
 
     </footer>
+
+    <!--sidebar nav-->
+
+   <div class="modal right  fade nav-sidebar" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content clearfix">
+          <a data-dismiss="modal" class="close-map" href="#"><span class="lnr lnr-cross"></span></a>
+          
+          <div class="nav-list">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="recruite.html">Jobs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

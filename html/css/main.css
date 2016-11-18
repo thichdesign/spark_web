@@ -2428,7 +2428,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f1726', e
   font-weight: 500;
 }
 .job-title h1 a{
-  color: #505e76;
+  color: #566a8b;
 }
 .job-title h5{
   color: #3f6f98;
@@ -2962,7 +2962,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f1726', e
   padding: 0;
   color: #bdbdbd;
 }
-
+.back-top{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 60%;
+  text-align: center;
+  z-index: 20;
+}
+.left-cnt{
+  margin-left: 0;
+}
 
 
 

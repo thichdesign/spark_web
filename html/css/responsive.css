@@ -53,9 +53,133 @@
 	#navbar{
 		display: none;
 	}
-
+	.carousel{
+		overflow: hidden;
+	}
 }
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 768px) {
+	.navbar-nav{
+		float: left;
+	    width: 100%;
+        padding-left: 30px;
+	}
+	.nav-modal-md>li>a{
+	    padding-top: 30px;
+   		padding-bottom: 10px;
+	    line-height: 20px;
+	    font-size: 30px;
+	    font-weight: 500 !important;
+	}
+	.nav>li.active::after{display: none;}
+	.navbar-toggle{
+		z-index: 9999;
+	}
+	.menu-sidebar{
+		position: fixed;
+		width: 100vh;
+		height: 100vh;
+		z-index: 99;
+		 background: #0b0e17;
+		 left: 0;
+		 top: 0;
+	}
+	#navbar{
+		display: none;
+	}
+	.nav-list{
+	    height: 100%;
+	    display: flex;
+	    align-items: center;
+	}
+	.nav-list ul li a {
+	    font-size: 32px;
+	    line-height: 64px;
+	    font-weight: 500;
+	}
+	.nav-list ul li {
+	    list-style: none;
+	}
+
+	.nav-sidebar{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		z-index: 9999;
+		-webkit-transform: translate3d(0%, 0, 0);
+		-ms-transform: translate3d(0%, 0, 0);
+		 -o-transform: translate3d(0%, 0, 0);
+		    transform: translate3d(0%, 0, 0);
+	}
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	/*Right*/
+	.nav-sidebar .modal-dialog {
+		right: -320px;
+		-webkit-transition: opacity 1s linear, right 1s ease-out;
+		   -moz-transition: opacity 1s linear, right 1s ease-out;
+		     -o-transition: opacity 1s linear, right 1s ease-out;
+		        transition: opacity 1s linear, right 1s ease-out;
+	}
+	
+	.nav-sidebar.in .modal-dialog {
+		right: 0;
+	}
+    .nav-sidebar .modal-dialog {
+	    position: fixed;
+	    margin: 10px;
+	    left: 0;
+	    margin: 0;
+	    width: 100%;
+	    height: 100vh;
+	    background: #000;
+	}
+	.nav-sidebar .modal-content{
+	    height: 100%;
+        box-shadow: none;
+        border: 0;
+        border-radius: 0;
+        background: #000;
+	}
+	.nav-sidebar .modal-content::after{
+        opacity: 0.08;
+	    background-image: url(../images/logo-mark.svg);
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-color: transparent;
+	    width: 100%;
+	    height: 100%;
+	    position: fixed;
+	    z-index: 999;
+	    top: 0;
+	    left: 50%;
+	}
+	.nav-sidebar .close-map{
+		right: 10px;
+    	top: 0px;
+    	background-color: transparent;
+    	color: #fff;
+    	z-index: 9999;
+	}
+	.carousel{
+		overflow: hidden;
+		height: 260px;
+	}
+	.img-job{
+		height: 200px;
+	}
+	.mt20s{
+		margin-top: 20px;
+	}
+	#article .navbar-toggle{
+		color: #333;
+	}
+	.title-{
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 736px) {
 	.mem{
 		width: 50%;
 		height: 160px;
@@ -234,5 +358,132 @@
     	color: #fff;
     	z-index: 9999;
 	}
-	
+	.top-content h1{
+		font-size: 36px;
+	}
+	.top-content h5 {
+	    line-height: 30px;
+	    font-size: 20px;
+	}
+
+    .img-prd, .jt-circle-lg, .jt-mobile, .jt-laptop, .jt-circle-sm{
+    	width: 100%;
+    	height: auto;
+    }
+    .wwd .left-cnt{
+    	padding-top: 0;
+    }
+    .top-content h1{
+    	opacity: 0.8;
+    }
+    .prd .right-cnt{
+    	padding-top: 40px;
+    }
+    .img-job{
+		height: 200px;
+	}
+
+   .carousel{
+		overflow: hidden;
+		height: 230px;
+	}
+	.article-page{
+		margin-top: 80px;
+	}
+	.title-article h1{
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.mt20s{
+		margin-top: 20px;
+	}
+	.p0s{
+		padding-left: 0;
+		orphans: 0;
+	}
+	.cnt-article p{
+		-webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1;
+	    -webkit-column-gap: 0px;
+	    -moz-column-gap: 0px;
+	    column-gap: 0px;
+	}
+    .job-title h1 {
+	    font-size: 16px;
+	}
+	#map-svg{
+	    min-width: 300%;
+	    margin-left: -420px;
+	    margin-top: -250px;
+        opacity: 0.5;	
+	}
+	.location-nav{
+		bottom: auto;
+	    width: 100%;
+	    top: 140px;
+	    left: 20px;
+	}
+	.location-nav ul{
+		display: block;
+	}
+	#contacpage{
+		overflow: hidden;
+	}
+	.contact-page{
+		padding-bottom: 0;
+	}
+	.location-modal-lg .modal-dialog{
+		margin: 0;
+	}
+	.location-modal-lg .modal-content{
+	    background-clip: border-box;
+        padding: 20px;	
+        padding-top: 50px;
+	}
+	.maps-left h1{
+	    font-size: 18px;	
+	}
+	.maps-left h1:after{
+		top: 10px;
+	}
+	.close-map{
+	    right: 0px;
+   	    top: 0px;
+	}
+	.location-nav {
+	    top: 140px;
+	    padding-left: 20px;
+	    left: 0;
+	}
+	.location-nav li::after{
+		display: none;
+	}
+	.maps-view{
+		position: relative;
+		width: 100%;
+		top: auto;
+		right: auto;
+		margin-top: 30px;
+	}
+	.location-nav li{
+		margin-top: 20px;
+	}
+	.map-container{
+		height: 100vh;
+	}
+	.top-content h5{
+		font-weight: 300;
+    	display: inline-block;
+	}
+	.logo-intro .rotateIn{
+		width: 80px;
+	}
+	.culture-cnt h2{
+		font-size: 30px;
+	}
+	.scroll__wheel{
+	    color: #81a4c2;
+	}
+
 }
